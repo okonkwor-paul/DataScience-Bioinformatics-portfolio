@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Stroke Risk Profile Dashboard Placeholder</title>
+  <desc id="desc">Placeholder visual representing a stroke risk dashboard for the Data Science Bioinformatics portfolio project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10151B"/>
+      <stop offset="100%" stop-color="#1D2733"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A94A"/>
+      <stop offset="100%" stop-color="#F0CE93"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5FD3C4"/>
+      <stop offset="100%" stop-color="#2FAEA3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <g fill="none" stroke="rgba(237,239,242,0.12)" stroke-width="1">
+    <path d="M80 90H1120M80 220H1120M80 350H1120M80 480H1120M80 610H1120"/>
+    <path d="M220 90V610M420 90V610M620 90V610M820 90V610M1020 90V610"/>
+  </g>
+  <g>
+    <text x="80" y="60" fill="#EDEFF2" font-family="Arial, sans-serif" font-size="28" font-weight="700">Stroke Risk Profile Dashboard</text>
+    <text x="80" y="660" fill="#96A0AC" font-family="Arial, sans-serif" font-size="18">Illustrative figure placeholder</text>
+  </g>
+  <g>
+    <rect x="90" y="120" width="250" height="180" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="120" y="150" width="180" height="10" rx="5" fill="#E8A94A" opacity="0.9"/>
+    <rect x="120" y="175" width="150" height="10" rx="5" fill="#5FD3C4" opacity="0.8"/>
+    <rect x="120" y="200" width="125" height="10" rx="5" fill="#EDEFF2" opacity="0.75"/>
+    <rect x="120" y="240" width="82" height="22" rx="11" fill="url(#amber)"/>
+    <text x="138" y="256" fill="#10151B" font-family="Arial, sans-serif" font-size="13" font-weight="700">76.7%</text>
+  </g>
+  <g>
+    <rect x="390" y="120" width="260" height="180" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+    <path d="M430 250 L470 210 L520 240 L560 180 L610 195 L610 270 L430 270 Z" fill="url(#teal)" opacity="0.75"/>
+    <path d="M430 250 L470 210 L520 240 L560 180 L610 195" fill="none" stroke="#EDEFF2" stroke-width="2" opacity="0.75"/>
+    <text x="430" y="150" fill="#EDEFF2" font-family="Arial, sans-serif" font-size="18" font-weight="700">Risk by group</text>
+  </g>
+  <g>
+    <rect x="700" y="120" width="370" height="180" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+    <path d="M760 255 L820 220 L885 255 L955 180 L1020 210" fill="none" stroke="url(#amber)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="760" cy="255" r="6" fill="#E8A94A"/>
+    <circle cx="820" cy="220" r="6" fill="#E8A94A"/>
+    <circle cx="885" cy="255" r="6" fill="#E8A94A"/>
+    <circle cx="955" cy="180" r="6" fill="#E8A94A"/>
+    <circle cx="1020" cy="210" r="6" fill="#E8A94A"/>
+    <text x="770" y="150" fill="#EDEFF2" font-family="Arial, sans-serif" font-size="18" font-weight="700">BP vs BMI</text>
+  </g>
+  <g>
+    <rect x="90" y="360" width="270" height="220" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="130" y="430" width="30" height="100" rx="8" fill="#E8A94A"/>
+    <rect x="175" y="390" width="30" height="140" rx="8" fill="#5FD3C4"/>
+    <rect x="220" y="470" width="30" height="60" rx="8" fill="#EDEFF2" opacity="0.8"/>
+    <rect x="265" y="410" width="30" height="120" rx="8" fill="#E8A94A" opacity="0.7"/>
+    <text x="145" y="395" fill="#EDEFF2" font-family="Arial, sans-serif" font-size="18" font-weight="700">Risk bands</text>
+  </g>
+  <g>
+    <rect x="420" y="360" width="650" height="220" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="470" y="470" width="520" height="18" rx="9" fill="rgba(237,239,242,0.08)"/>
+    <rect x="470" y="470" width="420" height="18" rx="9" fill="url(#amber)"/>
+    <rect x="470" y="430" width="260" height="18" rx="9" fill="url(#teal)" opacity="0.85"/>
+    <text x="470" y="405" fill="#EDEFF2" font-family="Arial, sans-serif" font-size="18" font-weight="700">Distribution overview</text>
+    <text x="470" y="520" fill="#96A0AC" font-family="Arial, sans-serif" font-size="15">High risk    Moderate risk    Low risk</text>
+  </g>
+</svg>
